@@ -24,4 +24,4 @@ observerDOM(() => {
   changeImages();
 });
 
-document.body.addEventListener("load", changeImages);
+changeImages();
